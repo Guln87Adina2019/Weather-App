@@ -1,0 +1,132 @@
+/* header--> start */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(69,198,191);
+    background: linear-gradient(0deg, rgba(69,198,191,0.768032212885154) 0%, rgba(177,221,245,1) 98%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container_header{
+    display: flex;
+    justify-content:space-around;
+    background: rgb(47,97,101);
+    background: linear-gradient(0deg, rgba(47,97,101,1) 0%, rgba(113,192,233,1) 98%);
+    box-shadow: 2px 2px 8px rgb(9, 19, 19);
+}
+.header_box{
+    color: white;
+    padding: 27px;
+}
+.header_search{
+    padding: 15px;
+}
+.input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.search-btn{
+    background-color: transparent;
+    border: none;
+}
+.search-btn img{
+    width: 20px;
+    height: 20px;
+}
+nav{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;   
+}
+.silteme{
+    text-decoration: none;
+} 
+.silteme:hover{
+    transform: scale(1.2);
+    color: white;
+}
+.nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+/* header--end */
+
+
+/* main--> start */
+
+.container{
+    
+    padding: 20px;
+    display: grid;
+    background-color: aliceblue;
+    width: 30%;
+    margin: 70px;
+    margin-left: 20%;
+    margin-right: 25%;
+    font-family: sans-serif;
+}
+.box1{
+    padding: 2px;
+    display: flex;  
+}
+.box1_A{
+}
+.box1_B{
+     margin-left: 50px;  
+}
+.box2{
+    margin-top: 30px;
+}
+.box3{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.box3_A{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.box3_B{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.box3_C{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    
+}
+.box3_D{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+
+/* main--> end */
